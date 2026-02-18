@@ -19,6 +19,9 @@ p {
     margin: 10px auto;
 }
 
-.navigation {
+.navbar .navlist {
     border-style: dashed;
+    display: inline-flex;
+    width: 150px;
+    text-align: center;
 }
