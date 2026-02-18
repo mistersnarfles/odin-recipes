@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: flex;
+    padding: 20px;
+}
+
+p {
+    margin: 10px auto;
+}
+
+.navigation {
+    border-style: dashed;
+}
