@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(184, 239, 184);
     font-family: Verdana, Arial, sans-serif;
 }
 
+body {
+    background-color: blanchedalmond;
+}
 h1 {
     border: 6px;
     border-bottom-style: ridge;
@@ -14,26 +16,33 @@ h1 {
     width: 500px;
     margin: 10px auto;
     display: flex;
+    justify-content: center;
 }
 
 li {
     text-align: center;
     width: 200px;
-    padding: 15px;
+    padding: 8px;
     margin-left: -20px;
     margin: 10px 0;
-    display: flex;
+    list-style: none;
     background-color: rgba(163, 219, 163, 0.711);
     border-radius: 25px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     border: solid 5px;
     border-color: antiquewhite;
-    border-radius: 25px;
-    width: 500px;
+    border-radius: 25%;
+    width: 300px;
+    display: flex;
     margin: 0 auto;
+    justify-content: center;
 }
+
 
 a {
     color: black;
